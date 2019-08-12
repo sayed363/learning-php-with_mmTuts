@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Page title here</title>
+  <title>php</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- fevicon icon -->
@@ -25,12 +25,25 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
-					<a href="https://youtu.be/CoorcqbkpI0?list=PL0eyrZgxdwhwBToawjm9faF1ixePexft-">Lecture-4</a>
+					<a href="https://youtu.be/wO5b8hcBTLM?list=PL0eyrZgxdwhwBToawjm9faF1ixePexft-">Lecture-4</a>
 					<form method="GET">
 						<input type="text" name="person">
-						<button type="button">SUBMIT</button>
+						<button>SUBMIT</button>
 					</form>
-					
+					<?php
+						$name = $_GET['person'];
+						echo $name." is a handsome fellow!";
+						echo "<br>";
+						echo strlen("Bangladesh is!");
+						echo "<br>";
+						echo str_word_count("Bangladesh is our home land");
+						echo "<br>";
+						echo "Reverse of string : ".strrev("Bangladesh is our home land");
+						echo "<br>";
+						echo strpos("Sheuly where are you now","now");
+						echo "<br>";
+						echo str_replace("Sheuly","Lovely","Sheuly where are you now!");
+					?>
 			</div>
 		</div>
 	</div>
