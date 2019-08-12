@@ -1,0 +1,76 @@
+/* EXTERNAL FONTS */
+@font-face{
+	font-family:'', sans-serif;
+	src:url(../fonts/.ttf),	
+}
+@font-face{
+	font-family:'',sans-serif;
+	src:url(../fonts/.ttf),
+}
+@font-face{
+	font-family:'',sans-serif;
+	src:url(../fonts/.ttf),
+}
+@font-face{
+	font-family:'',sans-serif;
+	src:url(../fonts/.ttf),
+}
+
+
+/* COMMON CSS */
+*{padding:0;margin:0;border:0;outline:0;}
+html{scroll-behavior:smooth;}
+body{
+	font-family:'', sans-serif;
+	font-size:16px;
+	font-weight:400;
+	color:#777;
+}
+ul{	padding:0;	margin:0;}
+ul li{list-style-type:none;}
+a{text-decoration:none;}
+a:focus,a:hover{text-decoration:none;}
+.fix{overflow:hidden;}
+img{max-width:100%;}
+h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+p{padding:0;margin:0;}
+.section-title{
+	font-family: '', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	color: #2980b9;
+	padding-top: 65px;
+	padding-bottom: 85px;
+	text-align:center;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	position:relative;
+}
+.section-title::after {
+	content: "";
+	height: 3px;
+	width: 30px;
+	background-color: #2980b9;
+	transform: translateX(-50%);
+	position: absolute;
+	left: 50%;
+	bottom: 70px;
+}
+
+.section-info {
+	height: auto;
+	width: 360px;
+	margin: auto;
+}
+.section-info > p {
+	font-family: '', sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	color: #fafcfe;
+	text-align: center;
+	margin-top: -50px;
+	margin-bottom: 80px;
+}
+.text-{color:#fafcfe!important;}
+.text-{color:#616161!important;}
+
